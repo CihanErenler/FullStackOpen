@@ -1,0 +1,46 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.success,
+.danger {
+  max-width: 500px;
+  padding: 15px;
+  background: rgb(98, 172, 98);
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.danger {
+  background: rgb(182, 67, 67);
+}
+
+button {
+  display: inline-block;
+  min-width: 120px;
+  padding: 6px;
+  margin: 5px;
+  border: none;
+  background: dodgerblue;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input {
+  display: block;
+  padding: 8px;
+  border: 1px solid #ccc;
+  background: #f4f4f4;
+  margin: 4px 0;
+  border-radius: 5px;
+  width: 250px;
+}
+
+td {
+  padding: 0 5px;
+}

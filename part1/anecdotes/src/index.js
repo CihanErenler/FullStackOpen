@@ -35,7 +35,7 @@ const App = (props) => {
     setVotes(newErr);
   };
 
-  //Return most voted anecdot's index
+  //Return index of most voted anecdot
   const mostVotes = () => {
     let max = votes[0];
     let maxIndex = 0;
